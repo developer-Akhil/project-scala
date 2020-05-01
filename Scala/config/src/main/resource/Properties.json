@@ -1,0 +1,139 @@
+{
+  "nifi": {
+    "nifiurl": "http://localhost:8080/nifi-api",
+    "pgstate": "RUNNING"
+  },
+  "kafka": {
+    "brokerUri": "kafka-0-broker.dev-dcp-kafka02.cdt.dcos:9625,kafka-1-broker.dev-dcp-kafka02.cdt.dcos:9625, kafka-2-broker.dev-dcp-kafka02.cdt.dcos:9625,kafka-3-broker.dev-dcp-kafka02.cdt.dcos:9625, kafka-4-broker.dev-dcp-kafka02.cdt.dcos:9625",
+    "topic": "devl-dcp-catest-evt"
+  },
+  "spark": {
+    "sparkappname": "ETLSparkTest"
+  },
+  "db": {
+    "driver": "oracle.jdbc.driver.OracleDriver",
+    "dbconnection": "jdbc:oracle:thin:@//cdtsdcpu-scan.rxcorp.com:1521/UDCPAD00",
+    "dbjdbcConn": "DCA_DATA/DCA_DATA@//cdtsdcpu-scan.rxcorp.com:1521/UDCPAD00",
+    "dbusername": "DCA_DATA",
+    "dbpassword": "DCA_DATA",
+    "pgdetailstablename": "DQE_PG_DETAILS",
+    "processortablename": "DQE_PROCESSORS_DETAILS",
+    "ftpaccountdetails": "DC_ORG"
+  },
+  "elk": {
+    "indexnamepgwrite": "dqe_rx_pg_audit_dev_write",
+    "indexnamepgread": "dqe_rx_pg_audit_dev_read",
+    "indexnameprocessorwrite": "dqe_rx_processors_audit_dev_write",
+    "indexnameprocessorread": "dqe_rx_processors_audit_dev_read",
+    "indexnameprocessorlogwrite": "dqe_rx_processor_log_dev_write",
+    "indexnameprocessorlogread": "dqe_rx_processor_log_dev_read",
+    "indexetllogread": "etl_banking_log",
+    "elkUrl": "http://bdfelasticdev.rxcorp.com/"
+  },
+  "logmessage": {
+    "GetSFTP": "Move file from sftp server to nifi filesystem",
+    "Global Archive": "Making copy to local system",
+    "Pull Files": "Move file from nifi filesystem to local system",
+    "Segregation Of Files": "Segregate files based on regex/given condition",
+    "Rename": "Renaming the file",
+    "TriggerNextFlow": "Triggering next process group",
+    "Log Folder": "Move file to log folder",
+    "Error Folder": "Move file to error folder",
+    "Input Folder": "Move file to input folder",
+    "Decrypt": "Decrypting the file",
+    "MoveErrorFiletoSftp": "Moving file from error to sftp",
+    "MoveArchiveFiletoFtp": "Moving file from archive to sftp",
+    "ListFile": "Retrieves a listing of files from the local filesystem",
+    "PutFile": "",
+    "ExecuteScript": "It executes the external script",
+    "Archive Folder": "Archive file into respective folder"
+  },
+  "provenance": {
+    "provenancedata": {
+      "provenance": {
+        "request": {
+          "maxResults": 1000
+        }
+      }
+    }
+  },
+
+  "schema": {
+    "trip_record_data": {
+      "VendorID": [
+        "IntegerType",
+        false
+      ],
+      "tpep_pickup_datetime": [
+        "TimestampType",
+        false
+      ],
+      "tpep_dropoff_datetime": [
+        "TimestampType",
+        false
+      ],
+      "passenger_count": [
+        "IntegerType",
+        false
+      ],
+      "trip_distance": [
+        "DoubleType",
+        false
+      ],
+      "RateCodeID": [
+        "IntegerType",
+        false
+      ],
+      "store_and_fwd_flag": [
+        "StringType",
+        false
+      ],
+      "PULocationID": [
+        "IntegerType",
+        false
+      ],
+      "DOLocationID": [
+        "IntegerType",
+        false
+      ],
+      "payment_type": [
+        "IntegerType",
+        false
+      ],
+      "fare_amount": [
+        "DoubleType",
+        false
+      ],
+      "extra": [
+        "DoubleType",
+        false
+      ],
+      "mta_tax": [
+        "DoubleType",
+        false
+      ],
+      "tip_amount": [
+        "IntegerType",
+        false
+      ],
+      "tolls_amount": [
+        "IntegerType",
+        false
+      ],
+      "improvement_surcharge": [
+        "DoubleType",
+        false
+      ],
+      "total_amount": [
+        "DoubleType",
+        false
+      ]
+    },
+    "settings": {
+      "header": "true",
+      "fileDelimiter": "|",
+      "namingConvention": "trip_record_data\\.(csv|CSV)",
+      "table": "trip_record_data_stg"
+    }
+  }
+}
