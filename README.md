@@ -1,2 +1,2 @@
 # project-scala
-It contains scala code about ETL code
+It contains scala about ETL code
