@@ -1,0 +1,58 @@
+{
+  "nifi": {
+    "nifiurl": "http://cdtsdcpa12u:8882/nifi-api",
+    "pgstate": "RUNNING"
+  },
+  "kafka": {
+      "brokerUri" : "kafka-0-broker.dev-dcp-kafka02.cdt.dcos:9625,kafka-1-broker.dev-dcp-kafka02.cdt.dcos:9625, kafka-2-broker.dev-dcp-kafka02.cdt.dcos:9625,kafka-3-broker.dev-dcp-kafka02.cdt.dcos:9625, kafka-4-broker.dev-dcp-kafka02.cdt.dcos:9625",
+      "topic" : "devl-dcp-catest-evt"
+   },
+  "oracle": {
+      "driver":"oracle.jdbc.driver.OracleDriver",
+      "dbconnection":"jdbc:oracle:thin:@//cdtsdcpu-scan.rxcorp.com:1521/UDCPAD00",
+      "dbjdbcConn":"DCA_DATA/DCA_DATA@//cdtsdcpu-scan.rxcorp.com:1521/UDCPAD00",
+      "dbusername":"DCA_DATA",
+      "dbpassword":"DCA_DATA",
+      "pgdetailstablename": "DQE_PG_DETAILS",
+      "processortablename": "DQE_PROCESSORS_DETAILS",
+      "ftpaccountdetails": "DQE_FTP_ACCT_DETAILS"
+  },
+  "elk": {
+  "indexnamepgwrite":"dqe_rx_pg_audit_dev_write",
+  "indexnamepgread":"dqe_rx_pg_audit_dev_read",
+  "indexnameprocessorwrite":"dqe_rx_processors_audit_dev_write",
+  "indexnameprocessorread":"dqe_rx_processors_audit_dev_read",
+  "indexnameprocessorlogwrite":"dqe_rx_processor_log_dev_write",
+  "indexnameprocessorlogread":"dqe_rx_processor_log_dev_read",
+  "elkUrl":"http://bdfelasticdev.rxcorp.com/"
+  },
+  "logmessage": {
+      "GetSFTP": "Move file from sftp server to nifi filesystem",
+      "Global Archive": "Making copy to local system",
+      "Pull Files": "Move file from nifi filesystem to local system",
+      "Segregation Of Files": "Segregate files based on regex/given condition",
+      "Rename": "Renaming the file",
+      "TriggerNextFlow": "Triggering next process group",
+      "Log Folder": "Move file to log folder",
+      "Error Folder": "Move file to error folder",
+      "Input Folder": "Move file to input folder",
+      "Decrypt": "Decrypting the file",
+      "MoveErrorFiletoSftp": "Moving file from error to sftp",
+      "MoveArchiveFiletoFtp": "Moving file from archive to sftp",
+      "ListFile": "Retrieves a listing of files from the local filesystem",
+      "PutFile": "",
+      "ExecuteScript": "It executes the external script",
+      "Archive Folder": "Archive file into respective folder",
+      "Archive": "Archive file into respective folder",
+      "FetchFile": "Fetching file from local filesystem",
+      "PutSFTP": "File move from local filesytem to ftp server",
+      "Resubmit Process":"File is resubmitting",
+      "MoveErrorFiletoFtp": "File moves from error folder to ftp server",
+      "MoveArchiveFiletoFtp": "File moves from archive folder to ftp server",
+      "Remote Path":"Connnecting remote location"	
+
+  },
+  "provenance":{
+     "provenancedata" : {"provenance": {"request": {"maxResults": 1000}}}
+  }
+}

@@ -1,0 +1,287 @@
+{
+	"revision": {
+		"version": 0
+	},
+	"id": "a912ff63-016f-1000-1f61-b5d9abaff9ee",
+	"uri": "http://localhost:8080/nifi-api/processors/a912ff63-016f-1000-1f61-b5d9abaff9ee",
+	"position": {
+		"x": 1720.0,
+		"y": 952.0
+	},
+	"permissions": {
+		"canRead": true,
+		"canWrite": true
+	},
+	"bulletins": [{
+		"id": 1337,
+		"groupId": "0b557330-24d4-39f3-6a0b-f472e833c642",
+		"sourceId": "a912ff63-016f-1000-1f61-b5d9abaff9ee",
+		"timestamp": "10:44:59 IST",
+		"canRead": true,
+		"bulletin": {
+			"id": 1337,
+			"category": "Log Message",
+			"groupId": "0b557330-24d4-39f3-6a0b-f472e833c642",
+			"sourceId": "a912ff63-016f-1000-1f61-b5d9abaff9ee",
+			"sourceName": "TriggerNextFlow",
+			"level": "ERROR",
+			"message": "ExecuteScript[id=a912ff63-016f-1000-1f61-b5d9abaff9ee] Failed to process session due to javax.script.ScriptException: TypeError: cannot concatenate 'unicode' and 'NoneType' objects in <script> at line number 60: org.apache.nifi.processor.exception.ProcessException: javax.script.ScriptException: TypeError: cannot concatenate 'unicode' and 'NoneType' objects in <script> at line number 60",
+			"timestamp": "10:44:59 IST"
+		}
+	}, {
+		"id": 1336,
+		"groupId": "0b557330-24d4-39f3-6a0b-f472e833c642",
+		"sourceId": "a912ff63-016f-1000-1f61-b5d9abaff9ee",
+		"timestamp": "10:44:59 IST",
+		"canRead": true,
+		"bulletin": {
+			"id": 1336,
+			"category": "Log Message",
+			"groupId": "0b557330-24d4-39f3-6a0b-f472e833c642",
+			"sourceId": "a912ff63-016f-1000-1f61-b5d9abaff9ee",
+			"sourceName": "TriggerNextFlow",
+			"level": "ERROR",
+			"message": "ExecuteScript[id=a912ff63-016f-1000-1f61-b5d9abaff9ee] ExecuteScript[id=a912ff63-016f-1000-1f61-b5d9abaff9ee] failed to process due to javax.script.ScriptException: TypeError: cannot concatenate 'unicode' and 'NoneType' objects in <script> at line number 60; rolling back session: org.apache.nifi.processor.exception.ProcessException: javax.script.ScriptException: TypeError: cannot concatenate 'unicode' and 'NoneType' objects in <script> at line number 60",
+			"timestamp": "10:44:59 IST"
+		}
+	}, {
+		"id": 1335,
+		"groupId": "0b557330-24d4-39f3-6a0b-f472e833c642",
+		"sourceId": "a912ff63-016f-1000-1f61-b5d9abaff9ee",
+		"timestamp": "10:44:58 IST",
+		"canRead": true,
+		"bulletin": {
+			"id": 1335,
+			"category": "Log Message",
+			"groupId": "0b557330-24d4-39f3-6a0b-f472e833c642",
+			"sourceId": "a912ff63-016f-1000-1f61-b5d9abaff9ee",
+			"sourceName": "TriggerNextFlow",
+			"level": "ERROR",
+			"message": "ExecuteScript[id=a912ff63-016f-1000-1f61-b5d9abaff9ee] Failed to process session due to javax.script.ScriptException: TypeError: cannot concatenate 'unicode' and 'NoneType' objects in <script> at line number 60: org.apache.nifi.processor.exception.ProcessException: javax.script.ScriptException: TypeError: cannot concatenate 'unicode' and 'NoneType' objects in <script> at line number 60",
+			"timestamp": "10:44:58 IST"
+		}
+	}, {
+		"id": 1334,
+		"groupId": "0b557330-24d4-39f3-6a0b-f472e833c642",
+		"sourceId": "a912ff63-016f-1000-1f61-b5d9abaff9ee",
+		"timestamp": "10:44:58 IST",
+		"canRead": true,
+		"bulletin": {
+			"id": 1334,
+			"category": "Log Message",
+			"groupId": "0b557330-24d4-39f3-6a0b-f472e833c642",
+			"sourceId": "a912ff63-016f-1000-1f61-b5d9abaff9ee",
+			"sourceName": "TriggerNextFlow",
+			"level": "ERROR",
+			"message": "ExecuteScript[id=a912ff63-016f-1000-1f61-b5d9abaff9ee] ExecuteScript[id=a912ff63-016f-1000-1f61-b5d9abaff9ee] failed to process due to javax.script.ScriptException: TypeError: cannot concatenate 'unicode' and 'NoneType' objects in <script> at line number 60; rolling back session: org.apache.nifi.processor.exception.ProcessException: javax.script.ScriptException: TypeError: cannot concatenate 'unicode' and 'NoneType' objects in <script> at line number 60",
+			"timestamp": "10:44:58 IST"
+		}
+	}, {
+		"id": 1333,
+		"groupId": "0b557330-24d4-39f3-6a0b-f472e833c642",
+		"sourceId": "a912ff63-016f-1000-1f61-b5d9abaff9ee",
+		"timestamp": "10:44:57 IST",
+		"canRead": true,
+		"bulletin": {
+			"id": 1333,
+			"category": "Log Message",
+			"groupId": "0b557330-24d4-39f3-6a0b-f472e833c642",
+			"sourceId": "a912ff63-016f-1000-1f61-b5d9abaff9ee",
+			"sourceName": "TriggerNextFlow",
+			"level": "ERROR",
+			"message": "ExecuteScript[id=a912ff63-016f-1000-1f61-b5d9abaff9ee] Failed to process session due to javax.script.ScriptException: TypeError: cannot concatenate 'unicode' and 'NoneType' objects in <script> at line number 60: org.apache.nifi.processor.exception.ProcessException: javax.script.ScriptException: TypeError: cannot concatenate 'unicode' and 'NoneType' objects in <script> at line number 60",
+			"timestamp": "10:44:57 IST"
+		}
+	}],
+	"component": {
+		"id": "a912ff63-016f-1000-1f61-b5d9abaff9ee",
+		"parentGroupId": "0b557330-24d4-39f3-6a0b-f472e833c642",
+		"position": {
+			"x": 1720.0,
+			"y": 952.0
+		},
+		"name": "TriggerNextFlow",
+		"type": "org.apache.nifi.processors.script.ExecuteScript",
+		"bundle": {
+			"group": "org.apache.nifi",
+			"artifact": "nifi-scripting-nar",
+			"version": "1.10.0"
+		},
+		"state": "RUNNING",
+		"style": {},
+		"relationships": [{
+			"name": "failure",
+			"description": "FlowFiles that failed to be processed",
+			"autoTerminate": true
+		}, {
+			"name": "success",
+			"description": "FlowFiles that were successfully processed",
+			"autoTerminate": true
+		}],
+		"supportsParallelProcessing": true,
+		"supportsEventDriven": false,
+		"supportsBatching": false,
+		"persistsState": true,
+		"restricted": true,
+		"deprecated": false,
+		"executionNodeRestricted": false,
+		"multipleVersionsAvailable": false,
+		"inputRequirement": "INPUT_ALLOWED",
+		"config": {
+			"properties": {
+				"Script Engine": "python",
+				"Script File": "/Users/achand/Development/nifi/scripts/TriggerNextFlow.py",
+				"Script Body": null,
+				"Module Directory": "/Users/achand/Development/nifi/jar/",
+				"processorGroupId": "bee62419-016f-1000-f131-5c589af8faff"
+			},
+			"descriptors": {
+				"Script Engine": {
+					"name": "Script Engine",
+					"displayName": "Script Engine",
+					"description": "The engine to execute scripts",
+					"defaultValue": "Clojure",
+					"allowableValues": [{
+						"allowableValue": {
+							"displayName": "Clojure",
+							"value": "Clojure"
+						},
+						"canRead": true
+					}, {
+						"allowableValue": {
+							"displayName": "ECMAScript",
+							"value": "ECMAScript"
+						},
+						"canRead": true
+					}, {
+						"allowableValue": {
+							"displayName": "Groovy",
+							"value": "Groovy"
+						},
+						"canRead": true
+					}, {
+						"allowableValue": {
+							"displayName": "lua",
+							"value": "lua"
+						},
+						"canRead": true
+					}, {
+						"allowableValue": {
+							"displayName": "python",
+							"value": "python"
+						},
+						"canRead": true
+					}, {
+						"allowableValue": {
+							"displayName": "ruby",
+							"value": "ruby"
+						},
+						"canRead": true
+					}],
+					"required": true,
+					"sensitive": false,
+					"dynamic": false,
+					"supportsEl": false,
+					"expressionLanguageScope": "Not Supported"
+				},
+				"Script File": {
+					"name": "Script File",
+					"displayName": "Script File",
+					"description": "Path to script file to execute. Only one of Script File or Script Body may be used",
+					"required": false,
+					"sensitive": false,
+					"dynamic": false,
+					"supportsEl": true,
+					"expressionLanguageScope": "Variable Registry Only"
+				},
+				"Script Body": {
+					"name": "Script Body",
+					"displayName": "Script Body",
+					"description": "Body of script to execute. Only one of Script File or Script Body may be used",
+					"required": false,
+					"sensitive": false,
+					"dynamic": false,
+					"supportsEl": false,
+					"expressionLanguageScope": "Not Supported"
+				},
+				"Module Directory": {
+					"name": "Module Directory",
+					"displayName": "Module Directory",
+					"description": "Comma-separated list of paths to files and/or directories which contain modules required by the script.",
+					"required": false,
+					"sensitive": false,
+					"dynamic": false,
+					"supportsEl": true,
+					"expressionLanguageScope": "Variable Registry Only"
+				},
+				"processorGroupId": {
+					"name": "processorGroupId",
+					"displayName": "processorGroupId",
+					"description": "",
+					"required": false,
+					"sensitive": false,
+					"dynamic": true,
+					"supportsEl": true,
+					"expressionLanguageScope": "Variable Registry and FlowFile Attributes"
+				}
+			},
+			"schedulingPeriod": "0 sec",
+			"schedulingStrategy": "TIMER_DRIVEN",
+			"executionNode": "ALL",
+			"penaltyDuration": "30 sec",
+			"yieldDuration": "1 sec",
+			"bulletinLevel": "WARN",
+			"runDurationMillis": 0,
+			"concurrentlySchedulableTaskCount": 1,
+			"comments": "",
+			"lossTolerant": false,
+			"defaultConcurrentTasks": {
+				"TIMER_DRIVEN": "1",
+				"EVENT_DRIVEN": "0",
+				"CRON_DRIVEN": "1"
+			},
+			"defaultSchedulingPeriod": {
+				"TIMER_DRIVEN": "0 sec",
+				"CRON_DRIVEN": "* * * * * ?"
+			}
+		},
+		"validationStatus": "VALID",
+		"extensionMissing": false
+	},
+	"inputRequirement": "INPUT_ALLOWED",
+	"status": {
+		"groupId": "0b557330-24d4-39f3-6a0b-f472e833c642",
+		"id": "a912ff63-016f-1000-1f61-b5d9abaff9ee",
+		"name": "TriggerNextFlow",
+		"runStatus": "Running",
+		"statsLastRefreshed": "10:45:12 IST",
+		"aggregateSnapshot": {
+			"id": "a912ff63-016f-1000-1f61-b5d9abaff9ee",
+			"groupId": "0b557330-24d4-39f3-6a0b-f472e833c642",
+			"name": "TriggerNextFlow",
+			"type": "ExecuteScript",
+			"runStatus": "Running",
+			"executionNode": "ALL",
+			"bytesRead": 0,
+			"bytesWritten": 0,
+			"read": "0 bytes",
+			"written": "0 bytes",
+			"flowFilesIn": 0,
+			"bytesIn": 0,
+			"input": "0 (0 bytes)",
+			"flowFilesOut": 0,
+			"bytesOut": 0,
+			"output": "0 (0 bytes)",
+			"taskCount": 109051,
+			"tasksDurationNanos": 267376895289,
+			"tasks": "109,051",
+			"tasksDuration": "00:04:27.376",
+			"activeThreadCount": 1,
+			"terminatedThreadCount": 0
+		}
+	},
+	"operatePermissions": {
+		"canRead": true,
+		"canWrite": true
+	}
+}
