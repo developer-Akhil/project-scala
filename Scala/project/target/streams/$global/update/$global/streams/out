@@ -1,11 +1,11 @@
-[info] Updating {file:/Users/achand/Documents/Project/BU/ETLSystem/project/}etlsystem-build...
-[debug] :: resolving dependencies :: default#etlsystem-build;0.1-SNAPSHOT
+[info] Updating {file:/Users/achand/Documents/Project/BU/ETL/Scala/project/}scala-build...
+[debug] :: resolving dependencies :: default#scala-build;0.1-SNAPSHOT
 [debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
 [debug] 	validate = true
 [debug] 	refresh = false
 [debug] resolving dependencies for configuration 'compile'
-[debug] == resolving dependencies for default#etlsystem-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#etlsystem-build;0.1-SNAPSHOT->com.eed3si9n#sbt-assembly;0.14.6 [compile->default(compile)]
+[debug] == resolving dependencies for default#scala-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#scala-build;0.1-SNAPSHOT->com.eed3si9n#sbt-assembly;0.14.6 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [info] Resolving com.eed3si9n#sbt-assembly;0.14.6 ...
@@ -356,15 +356,15 @@
 [debug] == resolving dependencies org.pantsbuild#jarjar;1.6.5->org.apache.maven#maven-plugin-api;3.3.9 [runtime->runtime(*)]
 [debug] == resolving dependencies org.pantsbuild#jarjar;1.6.5->org.apache.maven#maven-plugin-api;3.3.9 [runtime->compile]
 [debug] == resolving dependencies com.eed3si9n#sbt-assembly;0.14.6->org.pantsbuild#jarjar;1.6.5 [compile->master]
-[debug] == resolving dependencies default#etlsystem-build;0.1-SNAPSHOT->org.scoverage#sbt-scoverage;1.5.0 [compile->default(compile)]
+[debug] == resolving dependencies default#scala-build;0.1-SNAPSHOT->org.scoverage#sbt-scoverage;1.5.0 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [info] Resolving org.scoverage#sbt-scoverage;1.5.0 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scoverage#sbt-scoverage;1.5.0 {compile=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scoverage#sbt-scoverage;1.5.0
 [debug] 	found org.scoverage#sbt-scoverage;1.5.0 in sbt-chain
-[debug] == resolving dependencies default#etlsystem-build;0.1-SNAPSHOT->org.scoverage#sbt-scoverage;1.5.0 [compile->runtime]
-[debug] == resolving dependencies default#etlsystem-build;0.1-SNAPSHOT->org.scoverage#sbt-scoverage;1.5.0 [compile->compile]
+[debug] == resolving dependencies default#scala-build;0.1-SNAPSHOT->org.scoverage#sbt-scoverage;1.5.0 [compile->runtime]
+[debug] == resolving dependencies default#scala-build;0.1-SNAPSHOT->org.scoverage#sbt-scoverage;1.5.0 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] == resolving dependencies org.scoverage#sbt-scoverage;1.5.0->org.scoverage#scalac-scoverage-plugin_2.10;1.3.0 [compile->master(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
@@ -409,13 +409,13 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] == resolving dependencies org.scoverage#sbt-scoverage;1.5.0->org.scoverage#scalac-scoverage-plugin_2.10;1.3.0 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scoverage#sbt-scoverage;1.5.0->org.scoverage#scalac-scoverage-plugin_2.10;1.3.0 [runtime->compile]
-[debug] == resolving dependencies default#etlsystem-build;0.1-SNAPSHOT->org.scoverage#sbt-scoverage;1.5.0 [compile->master]
+[debug] == resolving dependencies default#scala-build;0.1-SNAPSHOT->org.scoverage#sbt-scoverage;1.5.0 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] resolving dependencies for configuration 'runtime'
-[debug] == resolving dependencies for default#etlsystem-build;0.1-SNAPSHOT [runtime]
-[debug] == resolving dependencies for default#etlsystem-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#etlsystem-build;0.1-SNAPSHOT->com.eed3si9n#sbt-assembly;0.14.6 [compile->default(compile)]
+[debug] == resolving dependencies for default#scala-build;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#scala-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#scala-build;0.1-SNAPSHOT->com.eed3si9n#sbt-assembly;0.14.6 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
@@ -708,13 +708,13 @@
 [debug] == resolving dependencies org.eclipse.sisu#org.eclipse.sisu.plexus;0.3.2->org.codehaus.plexus#plexus-utils;3.0.22 [runtime->runtime(*)]
 [debug] == resolving dependencies org.eclipse.sisu#org.eclipse.sisu.plexus;0.3.2->org.codehaus.plexus#plexus-utils;3.0.22 [runtime->compile]
 [debug] == resolving dependencies com.eed3si9n#sbt-assembly;0.14.6->org.pantsbuild#jarjar;1.6.5 [compile->master]
-[debug] == resolving dependencies default#etlsystem-build;0.1-SNAPSHOT->org.scoverage#sbt-scoverage;1.5.0 [compile->default(compile)]
+[debug] == resolving dependencies default#scala-build;0.1-SNAPSHOT->org.scoverage#sbt-scoverage;1.5.0 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}
-[debug] == resolving dependencies default#etlsystem-build;0.1-SNAPSHOT->org.scoverage#sbt-scoverage;1.5.0 [compile->runtime]
-[debug] == resolving dependencies default#etlsystem-build;0.1-SNAPSHOT->org.scoverage#sbt-scoverage;1.5.0 [compile->compile]
+[debug] == resolving dependencies default#scala-build;0.1-SNAPSHOT->org.scoverage#sbt-scoverage;1.5.0 [compile->runtime]
+[debug] == resolving dependencies default#scala-build;0.1-SNAPSHOT->org.scoverage#sbt-scoverage;1.5.0 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] == resolving dependencies org.scoverage#sbt-scoverage;1.5.0->org.scoverage#scalac-scoverage-plugin_2.10;1.3.0 [compile->master(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
@@ -755,14 +755,14 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.scoverage#scalac-scoverage-plugin_2.10;1.3.0->org.scala-lang#scala-library;2.10.6 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scoverage#scalac-scoverage-plugin_2.10;1.3.0->org.scala-lang#scala-library;2.10.6 [runtime->compile]
-[debug] == resolving dependencies default#etlsystem-build;0.1-SNAPSHOT->org.scoverage#sbt-scoverage;1.5.0 [compile->master]
+[debug] == resolving dependencies default#scala-build;0.1-SNAPSHOT->org.scoverage#sbt-scoverage;1.5.0 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] resolving dependencies for configuration 'test'
-[debug] == resolving dependencies for default#etlsystem-build;0.1-SNAPSHOT [test]
-[debug] == resolving dependencies for default#etlsystem-build;0.1-SNAPSHOT [runtime]
-[debug] == resolving dependencies for default#etlsystem-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#etlsystem-build;0.1-SNAPSHOT->com.eed3si9n#sbt-assembly;0.14.6 [compile->default(compile)]
+[debug] == resolving dependencies for default#scala-build;0.1-SNAPSHOT [test]
+[debug] == resolving dependencies for default#scala-build;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#scala-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#scala-build;0.1-SNAPSHOT->com.eed3si9n#sbt-assembly;0.14.6 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
@@ -1099,15 +1099,15 @@
 [debug] == resolving dependencies org.eclipse.sisu#org.eclipse.sisu.plexus;0.3.2->org.codehaus.plexus#plexus-utils;3.0.22 [runtime->runtime(*)]
 [debug] == resolving dependencies org.eclipse.sisu#org.eclipse.sisu.plexus;0.3.2->org.codehaus.plexus#plexus-utils;3.0.22 [runtime->compile]
 [debug] == resolving dependencies com.eed3si9n#sbt-assembly;0.14.6->org.pantsbuild#jarjar;1.6.5 [compile->master]
-[debug] == resolving dependencies default#etlsystem-build;0.1-SNAPSHOT->org.scoverage#sbt-scoverage;1.5.0 [compile->default(compile)]
+[debug] == resolving dependencies default#scala-build;0.1-SNAPSHOT->org.scoverage#sbt-scoverage;1.5.0 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}
-[debug] == resolving dependencies default#etlsystem-build;0.1-SNAPSHOT->org.scoverage#sbt-scoverage;1.5.0 [compile->runtime]
-[debug] == resolving dependencies default#etlsystem-build;0.1-SNAPSHOT->org.scoverage#sbt-scoverage;1.5.0 [compile->compile]
+[debug] == resolving dependencies default#scala-build;0.1-SNAPSHOT->org.scoverage#sbt-scoverage;1.5.0 [compile->runtime]
+[debug] == resolving dependencies default#scala-build;0.1-SNAPSHOT->org.scoverage#sbt-scoverage;1.5.0 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] == resolving dependencies org.scoverage#sbt-scoverage;1.5.0->org.scoverage#scalac-scoverage-plugin_2.10;1.3.0 [compile->master(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
@@ -1150,18 +1150,18 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.scoverage#scalac-scoverage-plugin_2.10;1.3.0->org.scala-lang#scala-library;2.10.6 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scoverage#scalac-scoverage-plugin_2.10;1.3.0->org.scala-lang#scala-library;2.10.6 [runtime->compile]
-[debug] == resolving dependencies default#etlsystem-build;0.1-SNAPSHOT->org.scoverage#sbt-scoverage;1.5.0 [compile->master]
+[debug] == resolving dependencies default#scala-build;0.1-SNAPSHOT->org.scoverage#sbt-scoverage;1.5.0 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] resolving dependencies for configuration 'provided'
-[debug] == resolving dependencies for default#etlsystem-build;0.1-SNAPSHOT [provided]
-[debug] == resolving dependencies default#etlsystem-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->default(compile)]
+[debug] == resolving dependencies for default#scala-build;0.1-SNAPSHOT [provided]
+[debug] == resolving dependencies default#scala-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}
-[debug] == resolving dependencies default#etlsystem-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->runtime]
-[debug] == resolving dependencies default#etlsystem-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->compile]
-[debug] == resolving dependencies default#etlsystem-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->master]
-[debug] == resolving dependencies default#etlsystem-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.12 [provided->default(compile)]
+[debug] == resolving dependencies default#scala-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->runtime]
+[debug] == resolving dependencies default#scala-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->compile]
+[debug] == resolving dependencies default#scala-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->master]
+[debug] == resolving dependencies default#scala-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.12 [provided->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [info] Resolving org.scala-sbt#sbt;0.13.12 ...
@@ -2941,11 +2941,11 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}
 [debug] resolving dependencies for configuration 'optional'
-[debug] == resolving dependencies for default#etlsystem-build;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for default#scala-build;0.1-SNAPSHOT [optional]
 [debug] resolving dependencies for configuration 'compile-internal'
-[debug] == resolving dependencies for default#etlsystem-build;0.1-SNAPSHOT [compile-internal]
-[debug] == resolving dependencies for default#etlsystem-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#etlsystem-build;0.1-SNAPSHOT->com.eed3si9n#sbt-assembly;0.14.6 [compile->default(compile)]
+[debug] == resolving dependencies for default#scala-build;0.1-SNAPSHOT [compile-internal]
+[debug] == resolving dependencies for default#scala-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#scala-build;0.1-SNAPSHOT->com.eed3si9n#sbt-assembly;0.14.6 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
@@ -3326,7 +3326,7 @@
 [debug] == resolving dependencies org.eclipse.sisu#org.eclipse.sisu.plexus;0.3.2->org.codehaus.plexus#plexus-utils;3.0.22 [runtime->runtime(*)]
 [debug] == resolving dependencies org.eclipse.sisu#org.eclipse.sisu.plexus;0.3.2->org.codehaus.plexus#plexus-utils;3.0.22 [runtime->compile]
 [debug] == resolving dependencies com.eed3si9n#sbt-assembly;0.14.6->org.pantsbuild#jarjar;1.6.5 [compile->master]
-[debug] == resolving dependencies default#etlsystem-build;0.1-SNAPSHOT->org.scoverage#sbt-scoverage;1.5.0 [compile->default(compile)]
+[debug] == resolving dependencies default#scala-build;0.1-SNAPSHOT->org.scoverage#sbt-scoverage;1.5.0 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
@@ -3335,8 +3335,8 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}
-[debug] == resolving dependencies default#etlsystem-build;0.1-SNAPSHOT->org.scoverage#sbt-scoverage;1.5.0 [compile->runtime]
-[debug] == resolving dependencies default#etlsystem-build;0.1-SNAPSHOT->org.scoverage#sbt-scoverage;1.5.0 [compile->compile]
+[debug] == resolving dependencies default#scala-build;0.1-SNAPSHOT->org.scoverage#sbt-scoverage;1.5.0 [compile->runtime]
+[debug] == resolving dependencies default#scala-build;0.1-SNAPSHOT->org.scoverage#sbt-scoverage;1.5.0 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] == resolving dependencies org.scoverage#sbt-scoverage;1.5.0->org.scoverage#scalac-scoverage-plugin_2.10;1.3.0 [compile->master(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
@@ -3381,16 +3381,16 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.scoverage#scalac-scoverage-plugin_2.10;1.3.0->org.scala-lang#scala-library;2.10.6 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scoverage#scalac-scoverage-plugin_2.10;1.3.0->org.scala-lang#scala-library;2.10.6 [runtime->compile]
-[debug] == resolving dependencies default#etlsystem-build;0.1-SNAPSHOT->org.scoverage#sbt-scoverage;1.5.0 [compile->master]
+[debug] == resolving dependencies default#scala-build;0.1-SNAPSHOT->org.scoverage#sbt-scoverage;1.5.0 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] == resolving dependencies for default#etlsystem-build;0.1-SNAPSHOT [optional]
-[debug] == resolving dependencies for default#etlsystem-build;0.1-SNAPSHOT [provided]
-[debug] == resolving dependencies default#etlsystem-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->default(compile)]
-[debug] == resolving dependencies default#etlsystem-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->runtime]
-[debug] == resolving dependencies default#etlsystem-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->compile]
-[debug] == resolving dependencies default#etlsystem-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->master]
-[debug] == resolving dependencies default#etlsystem-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.12 [provided->default(compile)]
+[debug] == resolving dependencies for default#scala-build;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for default#scala-build;0.1-SNAPSHOT [provided]
+[debug] == resolving dependencies default#scala-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->default(compile)]
+[debug] == resolving dependencies default#scala-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->runtime]
+[debug] == resolving dependencies default#scala-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->compile]
+[debug] == resolving dependencies default#scala-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->master]
+[debug] == resolving dependencies default#scala-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.12 [provided->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
@@ -5240,10 +5240,10 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}
 [debug] resolving dependencies for configuration 'runtime-internal'
-[debug] == resolving dependencies for default#etlsystem-build;0.1-SNAPSHOT [runtime-internal]
-[debug] == resolving dependencies for default#etlsystem-build;0.1-SNAPSHOT [runtime]
-[debug] == resolving dependencies for default#etlsystem-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#etlsystem-build;0.1-SNAPSHOT->com.eed3si9n#sbt-assembly;0.14.6 [compile->default(compile)]
+[debug] == resolving dependencies for default#scala-build;0.1-SNAPSHOT [runtime-internal]
+[debug] == resolving dependencies for default#scala-build;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#scala-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#scala-build;0.1-SNAPSHOT->com.eed3si9n#sbt-assembly;0.14.6 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
@@ -5624,7 +5624,7 @@
 [debug] == resolving dependencies org.eclipse.sisu#org.eclipse.sisu.plexus;0.3.2->org.codehaus.plexus#plexus-utils;3.0.22 [runtime->runtime(*)]
 [debug] == resolving dependencies org.eclipse.sisu#org.eclipse.sisu.plexus;0.3.2->org.codehaus.plexus#plexus-utils;3.0.22 [runtime->compile]
 [debug] == resolving dependencies com.eed3si9n#sbt-assembly;0.14.6->org.pantsbuild#jarjar;1.6.5 [compile->master]
-[debug] == resolving dependencies default#etlsystem-build;0.1-SNAPSHOT->org.scoverage#sbt-scoverage;1.5.0 [compile->default(compile)]
+[debug] == resolving dependencies default#scala-build;0.1-SNAPSHOT->org.scoverage#sbt-scoverage;1.5.0 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
@@ -5633,8 +5633,8 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}
-[debug] == resolving dependencies default#etlsystem-build;0.1-SNAPSHOT->org.scoverage#sbt-scoverage;1.5.0 [compile->runtime]
-[debug] == resolving dependencies default#etlsystem-build;0.1-SNAPSHOT->org.scoverage#sbt-scoverage;1.5.0 [compile->compile]
+[debug] == resolving dependencies default#scala-build;0.1-SNAPSHOT->org.scoverage#sbt-scoverage;1.5.0 [compile->runtime]
+[debug] == resolving dependencies default#scala-build;0.1-SNAPSHOT->org.scoverage#sbt-scoverage;1.5.0 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] == resolving dependencies org.scoverage#sbt-scoverage;1.5.0->org.scoverage#scalac-scoverage-plugin_2.10;1.3.0 [compile->master(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
@@ -5679,16 +5679,16 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.scoverage#scalac-scoverage-plugin_2.10;1.3.0->org.scala-lang#scala-library;2.10.6 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scoverage#scalac-scoverage-plugin_2.10;1.3.0->org.scala-lang#scala-library;2.10.6 [runtime->compile]
-[debug] == resolving dependencies default#etlsystem-build;0.1-SNAPSHOT->org.scoverage#sbt-scoverage;1.5.0 [compile->master]
+[debug] == resolving dependencies default#scala-build;0.1-SNAPSHOT->org.scoverage#sbt-scoverage;1.5.0 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] == resolving dependencies for default#etlsystem-build;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for default#scala-build;0.1-SNAPSHOT [optional]
 [debug] resolving dependencies for configuration 'test-internal'
-[debug] == resolving dependencies for default#etlsystem-build;0.1-SNAPSHOT [test-internal]
-[debug] == resolving dependencies for default#etlsystem-build;0.1-SNAPSHOT [test]
-[debug] == resolving dependencies for default#etlsystem-build;0.1-SNAPSHOT [runtime]
-[debug] == resolving dependencies for default#etlsystem-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#etlsystem-build;0.1-SNAPSHOT->com.eed3si9n#sbt-assembly;0.14.6 [compile->default(compile)]
+[debug] == resolving dependencies for default#scala-build;0.1-SNAPSHOT [test-internal]
+[debug] == resolving dependencies for default#scala-build;0.1-SNAPSHOT [test]
+[debug] == resolving dependencies for default#scala-build;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#scala-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#scala-build;0.1-SNAPSHOT->com.eed3si9n#sbt-assembly;0.14.6 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
@@ -6157,7 +6157,7 @@
 [debug] == resolving dependencies org.eclipse.sisu#org.eclipse.sisu.plexus;0.3.2->org.codehaus.plexus#plexus-utils;3.0.22 [runtime->runtime(*)]
 [debug] == resolving dependencies org.eclipse.sisu#org.eclipse.sisu.plexus;0.3.2->org.codehaus.plexus#plexus-utils;3.0.22 [runtime->compile]
 [debug] == resolving dependencies com.eed3si9n#sbt-assembly;0.14.6->org.pantsbuild#jarjar;1.6.5 [compile->master]
-[debug] == resolving dependencies default#etlsystem-build;0.1-SNAPSHOT->org.scoverage#sbt-scoverage;1.5.0 [compile->default(compile)]
+[debug] == resolving dependencies default#scala-build;0.1-SNAPSHOT->org.scoverage#sbt-scoverage;1.5.0 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
@@ -6170,8 +6170,8 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}
-[debug] == resolving dependencies default#etlsystem-build;0.1-SNAPSHOT->org.scoverage#sbt-scoverage;1.5.0 [compile->runtime]
-[debug] == resolving dependencies default#etlsystem-build;0.1-SNAPSHOT->org.scoverage#sbt-scoverage;1.5.0 [compile->compile]
+[debug] == resolving dependencies default#scala-build;0.1-SNAPSHOT->org.scoverage#sbt-scoverage;1.5.0 [compile->runtime]
+[debug] == resolving dependencies default#scala-build;0.1-SNAPSHOT->org.scoverage#sbt-scoverage;1.5.0 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] == resolving dependencies org.scoverage#sbt-scoverage;1.5.0->org.scoverage#scalac-scoverage-plugin_2.10;1.3.0 [compile->master(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
@@ -6220,16 +6220,16 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.scoverage#scalac-scoverage-plugin_2.10;1.3.0->org.scala-lang#scala-library;2.10.6 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scoverage#scalac-scoverage-plugin_2.10;1.3.0->org.scala-lang#scala-library;2.10.6 [runtime->compile]
-[debug] == resolving dependencies default#etlsystem-build;0.1-SNAPSHOT->org.scoverage#sbt-scoverage;1.5.0 [compile->master]
+[debug] == resolving dependencies default#scala-build;0.1-SNAPSHOT->org.scoverage#sbt-scoverage;1.5.0 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] == resolving dependencies for default#etlsystem-build;0.1-SNAPSHOT [optional]
-[debug] == resolving dependencies for default#etlsystem-build;0.1-SNAPSHOT [provided]
-[debug] == resolving dependencies default#etlsystem-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->default(compile)]
-[debug] == resolving dependencies default#etlsystem-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->runtime]
-[debug] == resolving dependencies default#etlsystem-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->compile]
-[debug] == resolving dependencies default#etlsystem-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->master]
-[debug] == resolving dependencies default#etlsystem-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.12 [provided->default(compile)]
+[debug] == resolving dependencies for default#scala-build;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for default#scala-build;0.1-SNAPSHOT [provided]
+[debug] == resolving dependencies default#scala-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->default(compile)]
+[debug] == resolving dependencies default#scala-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->runtime]
+[debug] == resolving dependencies default#scala-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->compile]
+[debug] == resolving dependencies default#scala-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [provided->master]
+[debug] == resolving dependencies default#scala-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.12 [provided->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
@@ -8275,20 +8275,20 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}
 [debug] resolving dependencies for configuration 'plugin'
-[debug] == resolving dependencies for default#etlsystem-build;0.1-SNAPSHOT [plugin]
+[debug] == resolving dependencies for default#scala-build;0.1-SNAPSHOT [plugin]
 [debug] resolving dependencies for configuration 'sources'
-[debug] == resolving dependencies for default#etlsystem-build;0.1-SNAPSHOT [sources]
+[debug] == resolving dependencies for default#scala-build;0.1-SNAPSHOT [sources]
 [debug] resolving dependencies for configuration 'docs'
-[debug] == resolving dependencies for default#etlsystem-build;0.1-SNAPSHOT [docs]
+[debug] == resolving dependencies for default#scala-build;0.1-SNAPSHOT [docs]
 [debug] resolving dependencies for configuration 'pom'
-[debug] == resolving dependencies for default#etlsystem-build;0.1-SNAPSHOT [pom]
+[debug] == resolving dependencies for default#scala-build;0.1-SNAPSHOT [pom]
 [debug] resolving dependencies for configuration 'scala-tool'
-[debug] == resolving dependencies for default#etlsystem-build;0.1-SNAPSHOT [scala-tool]
-[debug] == resolving dependencies default#etlsystem-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->default]
+[debug] == resolving dependencies for default#scala-build;0.1-SNAPSHOT [scala-tool]
+[debug] == resolving dependencies default#scala-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->default]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)], provided=[default(compile)]}
-[debug] == resolving dependencies default#etlsystem-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->runtime]
-[debug] == resolving dependencies default#etlsystem-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->compile]
+[debug] == resolving dependencies default#scala-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->runtime]
+[debug] == resolving dependencies default#scala-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.10.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.6 {optional=[compile(*), master(*)]} => dependency: org.scala-lang#jline;2.10.6 {optional=[compile(*), master(*)]}
@@ -8354,14 +8354,14 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.6->org.scala-lang#scala-library;2.10.6 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.6->org.scala-lang#scala-library;2.10.6 [runtime->compile]
-[debug] == resolving dependencies default#etlsystem-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->master]
+[debug] == resolving dependencies default#scala-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.10.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.6 {optional=[compile(*), master(*)]} => dependency: org.scala-lang#jline;2.10.6 {optional=[compile(*), master(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.10.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.6 {optional=[compile(*), master(*)]} => dependency: org.scala-lang#jline;2.10.6 {optional=[compile(*), master(*)]}
-[debug] == resolving dependencies default#etlsystem-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->optional(default)]
+[debug] == resolving dependencies default#scala-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.6 [scala-tool->optional(default)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.10.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#jline;2.10.6 {optional=[compile(*), master(*)]} => dependency: org.scala-lang#jline;2.10.6 {optional=[compile(*), master(*)]}
@@ -8417,11 +8417,11 @@
 [debug] sbt-chain: module revision found in cache: org.fusesource.jansi#jansi;1.4
 [debug] 	found org.fusesource.jansi#jansi;1.4 in sbt-chain
 [debug] == resolving dependencies org.scala-lang#jline;2.10.6->org.fusesource.jansi#jansi;1.4 [compile->compile(*)]
-[debug] == resolving dependencies default#etlsystem-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->default]
-[debug] == resolving dependencies default#etlsystem-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->runtime]
-[debug] == resolving dependencies default#etlsystem-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->compile]
-[debug] == resolving dependencies default#etlsystem-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->master]
-[debug] == resolving dependencies default#etlsystem-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->optional(default)]
+[debug] == resolving dependencies default#scala-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->default]
+[debug] == resolving dependencies default#scala-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->runtime]
+[debug] == resolving dependencies default#scala-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->compile]
+[debug] == resolving dependencies default#scala-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->master]
+[debug] == resolving dependencies default#scala-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->optional(default)]
 [debug] ignoring unhandled DependencyDescriptorMediator: class sbt.IvyScala$OverrideScalaMediator
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
@@ -8500,19 +8500,19 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.12!apply-macro.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#jline;2.10.6!jline.jar
 [debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar
-[debug] :: resolution report :: resolve 1474ms :: artifacts dl 32ms
-[debug] 	report for default#etlsystem-build;0.1-SNAPSHOT compile produced in /Users/achand/Documents/Project/BU/ETLSystem/project/target/resolution-cache/reports/default-etlsystem-build-compile.xml
-[debug] 	report for default#etlsystem-build;0.1-SNAPSHOT runtime produced in /Users/achand/Documents/Project/BU/ETLSystem/project/target/resolution-cache/reports/default-etlsystem-build-runtime.xml
-[debug] 	report for default#etlsystem-build;0.1-SNAPSHOT test produced in /Users/achand/Documents/Project/BU/ETLSystem/project/target/resolution-cache/reports/default-etlsystem-build-test.xml
-[debug] 	report for default#etlsystem-build;0.1-SNAPSHOT provided produced in /Users/achand/Documents/Project/BU/ETLSystem/project/target/resolution-cache/reports/default-etlsystem-build-provided.xml
-[debug] 	report for default#etlsystem-build;0.1-SNAPSHOT optional produced in /Users/achand/Documents/Project/BU/ETLSystem/project/target/resolution-cache/reports/default-etlsystem-build-optional.xml
-[debug] 	report for default#etlsystem-build;0.1-SNAPSHOT compile-internal produced in /Users/achand/Documents/Project/BU/ETLSystem/project/target/resolution-cache/reports/default-etlsystem-build-compile-internal.xml
-[debug] 	report for default#etlsystem-build;0.1-SNAPSHOT runtime-internal produced in /Users/achand/Documents/Project/BU/ETLSystem/project/target/resolution-cache/reports/default-etlsystem-build-runtime-internal.xml
-[debug] 	report for default#etlsystem-build;0.1-SNAPSHOT test-internal produced in /Users/achand/Documents/Project/BU/ETLSystem/project/target/resolution-cache/reports/default-etlsystem-build-test-internal.xml
-[debug] 	report for default#etlsystem-build;0.1-SNAPSHOT plugin produced in /Users/achand/Documents/Project/BU/ETLSystem/project/target/resolution-cache/reports/default-etlsystem-build-plugin.xml
-[debug] 	report for default#etlsystem-build;0.1-SNAPSHOT sources produced in /Users/achand/Documents/Project/BU/ETLSystem/project/target/resolution-cache/reports/default-etlsystem-build-sources.xml
-[debug] 	report for default#etlsystem-build;0.1-SNAPSHOT docs produced in /Users/achand/Documents/Project/BU/ETLSystem/project/target/resolution-cache/reports/default-etlsystem-build-docs.xml
-[debug] 	report for default#etlsystem-build;0.1-SNAPSHOT pom produced in /Users/achand/Documents/Project/BU/ETLSystem/project/target/resolution-cache/reports/default-etlsystem-build-pom.xml
-[debug] 	report for default#etlsystem-build;0.1-SNAPSHOT scala-tool produced in /Users/achand/Documents/Project/BU/ETLSystem/project/target/resolution-cache/reports/default-etlsystem-build-scala-tool.xml
-[debug] 	resolve done (1474ms resolve - 32ms download)
+[debug] :: resolution report :: resolve 3470ms :: artifacts dl 63ms
+[debug] 	report for default#scala-build;0.1-SNAPSHOT compile produced in /Users/achand/Documents/Project/BU/ETL/Scala/project/target/resolution-cache/reports/default-scala-build-compile.xml
+[debug] 	report for default#scala-build;0.1-SNAPSHOT runtime produced in /Users/achand/Documents/Project/BU/ETL/Scala/project/target/resolution-cache/reports/default-scala-build-runtime.xml
+[debug] 	report for default#scala-build;0.1-SNAPSHOT test produced in /Users/achand/Documents/Project/BU/ETL/Scala/project/target/resolution-cache/reports/default-scala-build-test.xml
+[debug] 	report for default#scala-build;0.1-SNAPSHOT provided produced in /Users/achand/Documents/Project/BU/ETL/Scala/project/target/resolution-cache/reports/default-scala-build-provided.xml
+[debug] 	report for default#scala-build;0.1-SNAPSHOT optional produced in /Users/achand/Documents/Project/BU/ETL/Scala/project/target/resolution-cache/reports/default-scala-build-optional.xml
+[debug] 	report for default#scala-build;0.1-SNAPSHOT compile-internal produced in /Users/achand/Documents/Project/BU/ETL/Scala/project/target/resolution-cache/reports/default-scala-build-compile-internal.xml
+[debug] 	report for default#scala-build;0.1-SNAPSHOT runtime-internal produced in /Users/achand/Documents/Project/BU/ETL/Scala/project/target/resolution-cache/reports/default-scala-build-runtime-internal.xml
+[debug] 	report for default#scala-build;0.1-SNAPSHOT test-internal produced in /Users/achand/Documents/Project/BU/ETL/Scala/project/target/resolution-cache/reports/default-scala-build-test-internal.xml
+[debug] 	report for default#scala-build;0.1-SNAPSHOT plugin produced in /Users/achand/Documents/Project/BU/ETL/Scala/project/target/resolution-cache/reports/default-scala-build-plugin.xml
+[debug] 	report for default#scala-build;0.1-SNAPSHOT sources produced in /Users/achand/Documents/Project/BU/ETL/Scala/project/target/resolution-cache/reports/default-scala-build-sources.xml
+[debug] 	report for default#scala-build;0.1-SNAPSHOT docs produced in /Users/achand/Documents/Project/BU/ETL/Scala/project/target/resolution-cache/reports/default-scala-build-docs.xml
+[debug] 	report for default#scala-build;0.1-SNAPSHOT pom produced in /Users/achand/Documents/Project/BU/ETL/Scala/project/target/resolution-cache/reports/default-scala-build-pom.xml
+[debug] 	report for default#scala-build;0.1-SNAPSHOT scala-tool produced in /Users/achand/Documents/Project/BU/ETL/Scala/project/target/resolution-cache/reports/default-scala-build-scala-tool.xml
+[debug] 	resolve done (3470ms resolve - 63ms download)
 [info] Done updating.

@@ -4,7 +4,7 @@
 		module="cryptographyalgo_2.12"
 		revision="1.0.0-SNAPSHOT"
 		status="integration"
-		publication="20200430151942"
+		publication="20200502162220"
 	>
 		<description>
 		cryptographyalgo

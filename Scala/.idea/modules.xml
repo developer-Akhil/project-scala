@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ETLBDSystem.iml" filepath="$PROJECT_DIR$/.idea/modules/ETLBDSystem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ETLBDSystem-build.iml" filepath="$PROJECT_DIR$/.idea/modules/ETLBDSystem-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/config.iml" filepath="$PROJECT_DIR$/.idea/modules/config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cryptographyalgo.iml" filepath="$PROJECT_DIR$/.idea/modules/cryptographyalgo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/deduplication.iml" filepath="$PROJECT_DIR$/.idea/modules/deduplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/logger.iml" filepath="$PROJECT_DIR$/.idea/modules/logger.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sourcestoragesystem.iml" filepath="$PROJECT_DIR$/.idea/modules/sourcestoragesystem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/transformationprocess.iml" filepath="$PROJECT_DIR$/.idea/modules/transformationprocess.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/utils.iml" filepath="$PROJECT_DIR$/.idea/modules/utils.iml" />
+    </modules>
+  </component>
+</project>

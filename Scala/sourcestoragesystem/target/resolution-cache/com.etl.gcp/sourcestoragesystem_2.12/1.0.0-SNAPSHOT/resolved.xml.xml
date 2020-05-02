@@ -4,7 +4,7 @@
 		module="sourcestoragesystem_2.12"
 		revision="1.0.0-SNAPSHOT"
 		status="integration"
-		publication="20200429140654"
+		publication="20200502162220"
 	>
 		<description>
 		sourcestoragesystem
@@ -42,7 +42,6 @@
 		<dependency org="org.apache.spark" name="spark-sql-kafka-0-10_2.12" rev="2.4.0" conf="compile->default(compile)"/>
 		<dependency org="org.scalactic" name="scalactic_2.12" rev="3.0.1" conf="compile->default(compile)"/>
 		<dependency org="org.scalatest" name="scalatest_2.12" rev="3.0.1" conf="compile->default(compile)"/>
-		<dependency org="org.postgresql" name="postgresql" rev="42.2.5" conf="compile->default(compile)"/>
 		<dependency org="joda-time" name="joda-time" rev="2.10.2" conf="compile->default(compile)"/>
 		<dependency org="org.joda" name="joda-convert" rev="2.2.1" conf="compile->default(compile)"/>
 		<dependency org="io.getquill" name="quill-core_2.12" rev="3.4.10" conf="compile->default(compile)"/>

@@ -4,7 +4,7 @@
 		module="etlbdsystem_2.12"
 		revision="0.1"
 		status="integration"
-		publication="20200430152021"
+		publication="20200502162312"
 	>
 		<description>
 		ETLBDSystem
@@ -38,7 +38,6 @@
 		<dependency org="com.etl.gcp" name="config_2.12" rev="1.0.0-SNAPSHOT" conf="compile->default(compile)"/>
 		<dependency org="com.etl.gcp" name="logger_2.12" rev="1.0.0-SNAPSHOT" conf="compile->default(compile)"/>
 		<dependency org="com.etl.gcp" name="utils_2.12" rev="1.0.0-SNAPSHOT" conf="compile->default(compile)"/>
-		<dependency org="com.etl.gcp" name="loadtodb_2.12" rev="1.0.0-SNAPSHOT" conf="compile->default(compile)"/>
 		<dependency org="com.etl.gcp" name="sourcestoragesystem_2.12" rev="1.0.0-SNAPSHOT" conf="compile->default(compile)"/>
 		<dependency org="com.etl.gcp" name="deduplication_2.12" rev="1.0.0-SNAPSHOT" conf="compile->default(compile)"/>
 		<dependency org="com.etl.gcp" name="transformationprocess_2.12" rev="1.0.0-SNAPSHOT" conf="compile->default(compile)"/>
