@@ -4,7 +4,7 @@
 		module="etlbdsystem_2.12"
 		revision="0.1"
 		status="integration"
-		publication="20200502162312"
+		publication="20200503005319"
 	>
 		<description>
 		ETLBDSystem
@@ -42,5 +42,6 @@
 		<dependency org="com.etl.gcp" name="deduplication_2.12" rev="1.0.0-SNAPSHOT" conf="compile->default(compile)"/>
 		<dependency org="com.etl.gcp" name="transformationprocess_2.12" rev="1.0.0-SNAPSHOT" conf="compile->default(compile)"/>
 		<dependency org="com.etl.gcp" name="cryptographyalgo_2.12" rev="1.0.0-SNAPSHOT" conf="compile->default(compile)"/>
+		<dependency org="com.etl.gcp" name="dumptodatalake_2.12" rev="1.0.0-SNAPSHOT" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>

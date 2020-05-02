@@ -11,6 +11,7 @@
             <option value="$PROJECT_DIR$/config" />
             <option value="$PROJECT_DIR$/cryptographyalgo" />
             <option value="$PROJECT_DIR$/deduplication" />
+            <option value="$PROJECT_DIR$/dumptodatalake" />
             <option value="$PROJECT_DIR$/logger" />
             <option value="$PROJECT_DIR$/project" />
             <option value="$PROJECT_DIR$/sourcestoragesystem" />

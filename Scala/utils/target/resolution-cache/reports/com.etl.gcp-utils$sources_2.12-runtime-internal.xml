@@ -7,7 +7,7 @@
 		revision="1.0.0-SNAPSHOT"
 		conf="runtime-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, scoveragePlugin"
-		date="20200502162429"/>
+		date="20200503005414"/>
 	<dependencies>
 		<module organisation="com.typesafe.scala-logging" name="scala-logging_2.12">
 			<revision name="3.9.0" status="release" pubdate="20180411152603" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/lightbend/scala-logging" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="93">
@@ -82,7 +82,7 @@
 			</revision>
 		</module>
 		<module organisation="com.etl.gcp" name="logger_2.12">
-			<revision name="1.0.0-SNAPSHOT" status="integration" pubdate="20200502162220" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="0">
+			<revision name="1.0.0-SNAPSHOT" status="integration" pubdate="20200503005301" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="0">
 				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
 				<caller organisation="com.etl.gcp" name="utils$sources_2.12" conf="compile, runtime-internal, runtime, optional" rev="1.0.0-SNAPSHOT" rev-constraint-default="1.0.0-SNAPSHOT" rev-constraint-dynamic="1.0.0-SNAPSHOT" callerrev="1.0.0-SNAPSHOT"/>
 				<artifacts>
@@ -102,7 +102,7 @@
 			</revision>
 		</module>
 		<module organisation="com.etl.gcp" name="config_2.12">
-			<revision name="1.0.0-SNAPSHOT" status="integration" pubdate="20200502162220" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="144">
+			<revision name="1.0.0-SNAPSHOT" status="integration" pubdate="20200503005301" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="144">
 				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
 				<caller organisation="com.etl.gcp" name="utils$sources_2.12" conf="compile, runtime-internal, runtime, optional" rev="1.0.0-SNAPSHOT" rev-constraint-default="1.0.0-SNAPSHOT" rev-constraint-dynamic="1.0.0-SNAPSHOT" callerrev="1.0.0-SNAPSHOT"/>
 				<artifacts>

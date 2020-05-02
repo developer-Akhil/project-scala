@@ -54,7 +54,7 @@ case class ConsumeThroughApi(logger:Logger,hashMap: Map[String, String],curTime:
         Ok("test")
       }
 
-      private val routes = consumerApi :+: healthCheck
+      val routes = consumerApi :+: healthCheck
       private val api =
       routes.handle {
         case e: Exception => InternalServerError(e)

@@ -4,7 +4,7 @@
 		module="etlbdsystem$sources_2.12"
 		revision="0.1"
 		status="integration"
-		publication="20200502162335"
+		publication="20200503005435"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>
@@ -25,6 +25,9 @@
 	<publications>
 	</publications>
 	<dependencies>
+		<dependency org="com.etl.gcp" name="dumptodatalake_2.12" rev="1.0.0-SNAPSHOT" transitive="false" conf="compile->compile,default(compile);runtime->compile,default(compile);test->compile,default(compile);compile-internal->compile,default(compile);runtime-internal->compile,default(compile);test-internal->compile,default(compile)">
+			<artifact name="dumptodatalake_2.12" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
 		<dependency org="com.etl.gcp" name="logger_2.12" rev="1.0.0-SNAPSHOT" transitive="false" conf="compile->compile,default(compile);runtime->compile,default(compile);test->compile,default(compile);compile-internal->compile,default(compile);runtime-internal->compile,default(compile);test-internal->compile,default(compile)">
 			<artifact name="logger_2.12" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 		</dependency>

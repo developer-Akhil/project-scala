@@ -18,7 +18,11 @@
     "dbpassword": "DCA_DATA",
     "pgdetailstablename": "DQE_PG_DETAILS",
     "processortablename": "DQE_PROCESSORS_DETAILS",
-    "ftpaccountdetails": "DC_ORG"
+    "ftpaccountdetails": "DC_ORG",
+    "historytable": "historytabyellotaxi",
+    "duplicatetable": "duplicatetabyellotaxi",
+    "hiveschema": "hiveschema"
+
   },
   "elk": {
     "indexnamepgwrite": "dqe_rx_pg_audit_dev_write",
@@ -135,5 +139,8 @@
       "namingConvention": "trip_record_data\\.(csv|CSV)",
       "table": "trip_record_data_stg"
     }
+  },
+  "crpyto": {
+    "key": "0123456789abcdef0123456789abcdef"
   }
 }

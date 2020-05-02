@@ -4,7 +4,7 @@
 		module="cryptographyalgo$sources_2.12"
 		revision="1.0.0-SNAPSHOT"
 		status="integration"
-		publication="20200502162320"
+		publication="20200503005449"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>

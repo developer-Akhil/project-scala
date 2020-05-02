@@ -154,16 +154,16 @@ lazy val transformationprocess = (project in file("transformationprocess"))
   .aggregate(`config`,`logger`, utils,sourcestoragesystem,`cryptographyalgo`)
   .settings(mergeStrategyVal)
 
-//lazy val dumptodatalake = (project in file("dumptodatalake"))
-//  .settings(addArtifact(artifact in (Compile, assembly), assembly))
-//  .settings(
-//    name := "dumptodatalake",
-//    assemblyOption in assembly := (assemblyOption in assembly).value.copy(includeScala = false),
-//    assemblyJarName in assembly := org+ "-"+ name +"-" +appVersion+".jar")
-//  .settings(libraryDependencies ++= Seq())
-//  .dependsOn(`config`,`logger`, utils,sourcestoragesystem,`deduplication`,`transformationprocess`,`cryptographyalgo`)
-//  .aggregate(`config`,`logger`, utils,sourcestoragesystem,`deduplication`,`transformationprocess`,`cryptographyalgo`)
-//  .settings(mergeStrategyVal)
+lazy val dumptodatalake = (project in file("dumptodatalake"))
+  .settings(addArtifact(artifact in (Compile, assembly), assembly))
+  .settings(
+    name := "dumptodatalake",
+    assemblyOption in assembly := (assemblyOption in assembly).value.copy(includeScala = false),
+    assemblyJarName in assembly := org+ "-"+ name +"-" +appVersion+".jar")
+  .settings(libraryDependencies ++= Seq())
+  .dependsOn(`config`,`logger`, utils,sourcestoragesystem,`deduplication`,`transformationprocess`,`cryptographyalgo`)
+  .aggregate(`config`,`logger`, utils,sourcestoragesystem,`deduplication`,`transformationprocess`,`cryptographyalgo`)
+  .settings(mergeStrategyVal)
 
 lazy val ETLBDSystem = (project in file("."))
   .settings(addArtifact(artifact in (Compile, assembly), assembly))
@@ -181,6 +181,6 @@ lazy val ETLBDSystem = (project in file("."))
     credentials += {
       Credentials("Sonatype Nexus Repository Manager", "nexus.rxcorp.com", "deployment", "deployment")
     },libraryDependencies ++= Seq())
-  .dependsOn(`config`, `logger`,utils,sourcestoragesystem,`deduplication`,`transformationprocess`,`cryptographyalgo`)
-  .aggregate(`config`, `logger`,utils,sourcestoragesystem,`deduplication`,`transformationprocess`,`cryptographyalgo`)
+  .dependsOn(`config`, `logger`,utils,sourcestoragesystem,`deduplication`,`transformationprocess`,`cryptographyalgo`,`dumptodatalake`)
+  .aggregate(`config`, `logger`,utils,sourcestoragesystem,`deduplication`,`transformationprocess`,`cryptographyalgo`,`dumptodatalake`)
   .settings(mergeStrategyVal)

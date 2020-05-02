@@ -7,10 +7,10 @@
 		revision="1.0.0-SNAPSHOT"
 		conf="test"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, scoveragePlugin"
-		date="20200502162320"/>
+		date="20200503005449"/>
 	<dependencies>
 		<module organisation="com.etl.gcp" name="sourcestoragesystem_2.12">
-			<revision name="1.0.0-SNAPSHOT" status="integration" pubdate="20200502162220" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="138">
+			<revision name="1.0.0-SNAPSHOT" status="integration" pubdate="20200503005301" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="138">
 				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
 				<caller organisation="com.etl.gcp" name="cryptographyalgo$sources_2.12" conf="test, compile, runtime" rev="1.0.0-SNAPSHOT" rev-constraint-default="1.0.0-SNAPSHOT" rev-constraint-dynamic="1.0.0-SNAPSHOT" callerrev="1.0.0-SNAPSHOT"/>
 				<artifacts>
@@ -90,7 +90,7 @@
 			</revision>
 		</module>
 		<module organisation="com.etl.gcp" name="utils_2.12">
-			<revision name="1.0.0-SNAPSHOT" status="integration" pubdate="20200502162220" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="155">
+			<revision name="1.0.0-SNAPSHOT" status="integration" pubdate="20200503005301" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="155">
 				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
 				<caller organisation="com.etl.gcp" name="cryptographyalgo$sources_2.12" conf="test, compile, runtime" rev="1.0.0-SNAPSHOT" rev-constraint-default="1.0.0-SNAPSHOT" rev-constraint-dynamic="1.0.0-SNAPSHOT" callerrev="1.0.0-SNAPSHOT"/>
 				<artifacts>
@@ -1158,7 +1158,7 @@
 			</revision>
 		</module>
 		<module organisation="com.etl.gcp" name="logger_2.12">
-			<revision name="1.0.0-SNAPSHOT" status="integration" pubdate="20200502162220" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="0">
+			<revision name="1.0.0-SNAPSHOT" status="integration" pubdate="20200503005301" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="0">
 				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
 				<caller organisation="com.etl.gcp" name="cryptographyalgo$sources_2.12" conf="test, compile, runtime" rev="1.0.0-SNAPSHOT" rev-constraint-default="1.0.0-SNAPSHOT" rev-constraint-dynamic="1.0.0-SNAPSHOT" callerrev="1.0.0-SNAPSHOT"/>
 				<artifacts>
@@ -1238,7 +1238,7 @@
 			</revision>
 		</module>
 		<module organisation="com.etl.gcp" name="config_2.12">
-			<revision name="1.0.0-SNAPSHOT" status="integration" pubdate="20200502162220" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="215">
+			<revision name="1.0.0-SNAPSHOT" status="integration" pubdate="20200503005301" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="215">
 				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
 				<caller organisation="com.etl.gcp" name="cryptographyalgo$sources_2.12" conf="test, compile, runtime" rev="1.0.0-SNAPSHOT" rev-constraint-default="1.0.0-SNAPSHOT" rev-constraint-dynamic="1.0.0-SNAPSHOT" callerrev="1.0.0-SNAPSHOT"/>
 				<artifacts>

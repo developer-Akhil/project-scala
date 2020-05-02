@@ -4,7 +4,7 @@
 		module="deduplication$sources_2.12"
 		revision="1.0.0-SNAPSHOT"
 		status="integration"
-		publication="20200502162347"
+		publication="20200503005400"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>
