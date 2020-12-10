@@ -1,2 +1,2 @@
 # project-scala
-It contains scala about ETL code
+ETL Tool Application developed in Scala and Python
