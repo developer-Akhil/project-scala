@@ -15,7 +15,6 @@ while true
 	python NifiLoggingSystem/com/rxcorp/daqe/etl/NifiLoggingSystem.py
 	sleep 3
    done
-
 deativate
 
 exit
