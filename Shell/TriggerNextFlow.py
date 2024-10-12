@@ -9,7 +9,6 @@ sys.path.append('/usr/lib64/python3.6/json/')
 #import cx_Oracle
 import requests
 import json
-#import logger as log
 
 #sys.path.append('/Users/achand/Development/nifi/commons-io-2.6.jar')
 #sys.path.append('/Users/achand/Development/nifi/nifi-api-1.9.1.jar')
