@@ -7,8 +7,6 @@ import random
 import os
 from getpass import getpass
 
-
-
 def generate():
         global username
         username = raw_input("Enter username: ")
