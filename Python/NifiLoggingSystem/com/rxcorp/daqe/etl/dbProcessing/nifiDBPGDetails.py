@@ -1,6 +1,5 @@
 import cx_Oracle
 
-
 class nifiDBPGDetails:
     def __init__(self,connString):
         self.connString = connString
