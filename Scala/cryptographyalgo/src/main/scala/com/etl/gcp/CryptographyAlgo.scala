@@ -89,3 +89,4 @@ case class CryptographyAlgo(inputFile:String ,key:String,logger:Logger,hashMap: 
 //  }
 
 //}
+
