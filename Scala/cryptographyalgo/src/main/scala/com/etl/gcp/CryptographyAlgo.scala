@@ -11,7 +11,6 @@ case class CryptographyAlgo(inputFile:String ,key:String,logger:Logger,hashMap: 
 
   private var fileOper =  FileOperations
 
-
   /**
     * cryptoAlgo provide encrypted and decrypted files
     * @param cipherMode it contains mode information means Algorithm either ENCRYPT_MODE(1) or DECRYPT_MODE(2)
