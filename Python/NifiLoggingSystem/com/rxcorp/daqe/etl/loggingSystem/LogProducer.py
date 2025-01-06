@@ -5,7 +5,6 @@ import sys
 
 from kafka import KafkaProducer
 
-
 class LogProducer:
     """Class to instantiate the kafka logging facility."""
 
