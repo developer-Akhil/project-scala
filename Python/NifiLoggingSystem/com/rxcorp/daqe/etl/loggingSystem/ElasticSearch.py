@@ -9,7 +9,6 @@ except IOError as io:
 
 
 
-
 # dateTimeObj = datetime.now()
 #
 # print(dateTimeObj)
