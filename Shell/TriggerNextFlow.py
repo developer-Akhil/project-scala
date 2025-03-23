@@ -20,7 +20,6 @@ from org.apache.nifi.processor.io import InputStreamCallback
 from org.apache.nifi.processors.script import ExecuteScript 
 #from com.ziclix.python.sql import zxJDBC
 
-
 sys.path.append('/Users/achand/Development/nifi/')
 
 class triggerNextFlow(InputStreamCallback):
